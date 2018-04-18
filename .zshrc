@@ -90,6 +90,7 @@ export LANG=en_US.UTF-8
 alias pbk="cat ~/.ssh/id_rsa.pub|pbcopy"
 alias g="git"
 alias d="docker"
+alias izsh="sh -c \"$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\""
 
 export PATH=$PATH:~/Library/Android/sdk/platform-tools/:~/Library/Android/sdk/tools:~/Library/Android/sdk/tools/bin:~/Library/Android/sdk/build-tools/26.0.1/:/Applications/Appium.app/Contents/MacOS/
 
